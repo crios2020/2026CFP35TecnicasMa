@@ -11,7 +11,7 @@
 - **Meet:**             https://meet.google.com/apo-fedn-cwv
 - **Github:**           https://github.com/crios2020/2026CFP35TecnicasMa
 - **Codeshare:**        https://codeshare.io/crios2020
-- **AulaVirtual:**      https://aulasvirtuales.bue.edu.ar/
+- **AulaVirtual:**      https://aulasvirtuales.bue.edu.ar/course/view.php?id=30193
 - **Clases Grabadas:**  https://www.youtube.com/watch?v=1ntADUpGfTY&list=PLITUu-Oxhx8s
 
 ### Software

@@ -124,3 +124,11 @@ print("hola "+nombre)
 # El programa debe ingresar por consola (teclado), el valor de 
 # la base y el valor de la altura de un rectangulo.
 # El programa debe calcular e imprimir la superficie y el perimetro del rectangulo.
+
+base = float(input ("Ingrese la base del rectángulo (cm): "))
+altura = float (input ("Ingrese la altura del rectángulo (cm): "))
+
+perimetro = (base + altura) * 2
+superficie = base * altura 
+
+print (f"El perimetro del rectángulo es {perimetro} y su superficie es {superficie}")
