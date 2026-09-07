@@ -1,0 +1,23 @@
+<script src="https://crios2020.github.io/js/util.js"></script>
+<script>
+    //Extensión: Live Server Ritwick Dey
+    llueve=getLlueve()
+    temperatura=getTemperatura()
+    
+    print("Hola Mundo")
+    print("La temperatura es: "+temperatura+" grados")
+    print("Llueve : "+llueve)
+    print("Vamos a la pileta: "+(!llueve && temperatura>=25))
+
+    if(llueve)                          print("Usar Paraguas!!!!!")
+    if(llueve && temperatura<=15)       print("Hace frio y llueve, hagamos tortafritas!!!")
+    if(!llueve && temperatura>=25)      print("Hace Calor, vamos a la pile!!!")
+
+    hora=getHora()
+    momento=getMomento()
+    accion=getMomentoAccion()
+    frase="Es la hora "+hora+", es "+momento+", es momento de "+accion
+    print(frase)
+    hablar(frase)
+
+</script>
