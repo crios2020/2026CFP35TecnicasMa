@@ -1,0 +1,66 @@
+/* Bloque de comentarios CSS */
+body{
+    /*background-color: coral;*/
+    background-color: #D7CE73;
+}
+h1{
+    /*color:blue;*/
+    color: #D1603D;
+    text-align: center;
+    font-size: 60px;
+    /*background-color: red;*/
+    background-color: #DAA35D;
+    /*border-style: groove;*/
+    border-radius: 50px;
+    margin:20px;
+    /*margin-left: 50px;*/
+    /*margin: auto;*/
+    padding: 20px;
+    opacity: 0.5;
+    transition: 3s;
+}
+
+/* Evento CSS */
+h1:hover{
+    opacity: 1;
+    transition: 3s;
+    border-radius: 0px;
+    color:brown;
+    /*rotate: 180deg;*/
+}
+
+p{
+    color: #D78D52;
+    -webkit-text-stroke: 1px #D78D52;
+    font-style: italic;
+    font-size: 25px;
+    
+}
+
+/* Selector de tipo */
+h2{
+    /*color:blue;*/
+    width: 240px;
+    text-align: center;
+    opacity: 0.6;
+}
+h2:hover{
+    opacity: 1;
+}
+
+/* Selector de clase */
+.semana{
+    color:red;
+    background-color: pink;
+}
+.finde{
+    color:green;
+    background-color: lightgreen;
+}
+
+/* Selector de ID */
+#lunes{
+    border-radius: 20px;
+    border-style: double;
+    border-color: red;
+}
